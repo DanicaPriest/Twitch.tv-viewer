@@ -1,0 +1,100 @@
+/*colors:
+#783a4a
+#af6a8c
+#dbbdbd
+#ead0c8
+#c8d6ea*/
+body{
+  background:#c8d6ea;}
+
+#mainC{
+  margin-top:30px;
+  
+  
+}
+
+ul{
+  width:100%;
+  margin-bottom:0px;
+  display:table;
+  padding:0px;
+}
+li{
+  display:table-cell;
+  border:2px solid #783a4a;
+   background:#ead0c8;
+  font-size: 2em;
+  padding:20px;
+  color:#783a4a;
+  cursor: pointer;
+}
+
+
+.online{
+  background:#af6a8c;
+}
+.offline{
+  background:#783a4a;
+  color:#af6a8c;
+}
+
+.glyphicon-ok-sign{
+  color:#af6a8c;
+}
+#mainD, #search{
+  border:2px solid #783a4a;
+  color:#783a4a;
+  font-size:1.5em;
+  border-top:none;
+}
+#search{
+  background:#dbbdbd;
+  padding:20px;
+  
+}
+#mainD{
+  background:#ead0c8;
+}
+img{
+  height:50px;
+}
+.searchBox{
+  border:2px solid #af6a8c;
+  border-radius:10px;
+  margin-left:3px;
+}
+.searchBox:focus{
+  -webkit-box-shadow: 2px 3px 20px 2px rgba(200,214,234,1);
+-moz-box-shadow: 2px 3px 20px 2px rgba(200,214,234,1);
+box-shadow: 2px 3px 20px 2px rgba(200,214,234,1);
+}
+#chStatus{
+  
+  float:right;
+  background:#c8d6ea;
+  border-radius:50%;
+  margin:10px;
+}
+.chnls{
+  padding:5px;
+
+}
+.chnls:hover, li:hover{-webkit-box-shadow: inset 2px 2px 20px 10px rgba(219,189,189,1);
+-moz-box-shadow: inset 2px 2px 20px 10px rgba(219,189,189,1);
+box-shadow: inset 2px 2px 20px 10px rgba(219,189,189,1);
+}
+.hide{
+  display:none;
+}
+.srchhide{
+  display:none;
+}
+.active, .active:hover{
+  background:#dbbdbd;
+  border-bottom:none;
+  color:#783a4a;
+}
+a, a:hover, a:focus{
+  color:#783a4a;
+  text-decoration:none;
+}
